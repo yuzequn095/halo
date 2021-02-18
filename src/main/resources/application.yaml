@@ -1,5 +1,5 @@
 server:
-  port: 8090
+  port: 9595
   forward-headers-strategy: native
   compression:
     enabled: false
@@ -8,7 +8,7 @@ spring:
     pathmatch:
       use-suffix-pattern: true
   jackson:
-    date-format: yyyy-MM-dd HH:mm:ss
+    date-format: MM-dd-yyyy HH:mm:ss
   devtools:
     add-properties: false
   output:
@@ -17,9 +17,11 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
 
+    # MySql database configuration.
+
     # H2 database configuration.
     driver-class-name: org.h2.Driver
-    url: jdbc:h2:file:~/.halo/db/halo
+    url: jdbc:h2:file:~/.halo/db/halo # local h2 database
     username: admin
     password: 123456
 

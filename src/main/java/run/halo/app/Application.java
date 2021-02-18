@@ -6,6 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * Halo main class.
  *
+ * The Entrance Of Whole Project.
+ *
  * @author ryanwang
  * @date 2017-11-14
  */

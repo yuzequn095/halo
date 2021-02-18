@@ -1,0 +1,33 @@
+/halo/build.gradle:
+Include all .jar we need for this project.
+
+/Users/yu/Desktop/halo/src/main/java/run/halo/app/Application.java:
+The Main class of this project. The entrance of the  whole application.
+
+/Users/yu/Desktop/halo/src/main/resources/application.yaml:
+The main configuration files, includes database, port and etc.
+
+/Users/yu/Desktop/halo/src/main/resources/banner.txt:
+The launch banner file, we could customized our launch ascii launch banner.
+
+/Users/yu/Desktop/halo/src/main/resources/templates:
+Static UI templates.
+
+/Users/yu/Desktop/halo/src/main/java/run/halo/app/controller:
+The interaction between front-end and back-end. Main task is to provide API needed.
+
+/Users/yu/Desktop/halo/src/main/java/run/halo/app/service:
+Implementation methods.
+
+/Users/yu/Desktop/halo/src/main/java/run/halo/app/repository:
+Database interaction.
+
+/Users/yu/Desktop/halo/src/main/java/run/halo/app/model:
+Database objects.
+
+/Users/yu/Desktop/halo/src/main/java/run/halo/app/utils:
+Tools.
+
+/Users/yu/Desktop/halo/src/main/java/run/halo/app/security:
+Auth.
+
